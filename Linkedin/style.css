@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+
+  display: grid;
+
+  grid-template:
+    "Header     Header      Header          Header          Header   " 35px
+    "Left-Side  Bio         Status          News            Right-Side" 1fr
+    "Left-Side  Bio         Feed            News            Right-Side" 1fr
+    "Left-Side  Discover    Feed            Learning        Right-Side" 1fr
+    "Left-Side  Space       Feed            Recommendtions  Right-Side" 1fr
+    "Left-Side  Space       Feed            Footer          Messaging" 1fr /
+    100px 150px minmax(200px, 1fr) 100px 100px;
+}
+
+.Header {
+  grid-area: Header;
+  background-color: #ff000050;
+
+  display: grid;
+  align-items: center;
+}
+.Left-Side {
+  grid-area: News;
+
+  display: grid;
+  align-items: center;
+}
+.Bio {
+  grid-area: Bio;
+  background-color: #00ff0050;
+
+  display: grid;
+  align-items: center;
+}
+.Status {
+  grid-area: Status;
+  background-color: #0000ff50;
+
+  display: grid;
+  align-items: center;
+}
+.News {
+  grid-area: News;
+  background-color: #ffff0050;
+
+  display: grid;
+  align-items: center;
+}
+.Right-Side {
+  grid-area: News;
+
+  display: grid;
+  align-items: center;
+}
+
+.Discover {
+  grid-area: Discover;
+  background-color: #00ffff50;
+
+  display: grid;
+  align-items: center;
+}
+.Feed {
+  grid-area: Feed;
+  background-color: #ae3ee250;
+
+  display: grid;
+  align-items: center;
+}
+.Learning {
+  grid-area: Learning;
+  background-color: #49be9180;
+
+  display: grid;
+  align-items: center;
+}
+
+.Recommendtions {
+  grid-area: Recommendtions;
+  background-color: #a5dd2270;
+
+  display: grid;
+  align-items: center;
+}
+.Messaging {
+  grid-area: Messaging;
+  background-color: #bd1a5e70;
+
+  display: grid;
+  align-items: center;
+}
+.Space {
+  grid-area: News;
+
+  display: grid;
+  align-items: center;
+}
+.Footer {
+  grid-area: Footer;
+  background-color: rgb(99, 131, 158);
+
+  display: grid;
+  align-items: center;
+}

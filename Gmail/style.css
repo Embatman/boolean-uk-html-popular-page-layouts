@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+
+  display: grid;
+  grid-template:
+    "Header     Search-bar  Header          Settings" 35px
+    "Navigation Email-tools Email-tools     Icons " 1fr
+    "Meet       Emails      Emails          Icons " 1fr
+    "Hangouts   Emails     Emails          Icons " 1fr /
+    100px 1fr 1fr 100px;
+}
+/* where am I going wrong */
+
+.Header {
+  grid-area: Header;
+  background-color: #ff000050;
+}
+.Search-bar {
+  grid-area: Search-bar;
+  background-color: #00ff0050;
+}
+
+.Settings {
+  grid-area: Settings;
+  background-color: #0000ff50;
+}
+
+.Icons {
+  grid-area: Icons;
+  background-color: #ffff0050;
+}
+.Navigation {
+  grid-area: Navigation;
+  background-color: #00ffff50;
+}
+.Email-tools {
+  grid-area: Email-tools;
+  background-color: #ff00ff50;
+}
+.Subcategory {
+  grid-area: Subcategory;
+  background-color: #f0000f50;
+}
+.Emails {
+  grid-area: Emails;
+  background-color: #0ffff050;
+}
+.Meet {
+  grid-area: Meet;
+  background-color: #f0f0f050;
+}
+.Hangouts {
+  grid-area: Hangouts;
+  background-color: #0f0f0f50;
+}

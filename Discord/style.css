@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+
+  display: grid;
+  grid-template:
+    "icons server header tool-bar" 50px
+    "icons server-list chat-box" 150px
+    "icons server-list chat-box" 1fr
+    "icons status-bar chat-box" 50px/
+    50px 150px 1fr 1fr;
+}
+
+.icons {
+  grid-area: icons;
+  background-color: #ff000050;
+  display: grid;
+  align-items: center;
+}
+.server {
+  grid-area: server;
+  background-color: #00ff0050;
+  display: grid;
+  align-items: center;
+}
+.header {
+  grid-area: header;
+  background-color: #0000ff50;
+  display: grid;
+  align-items: center;
+}
+
+.tool-bar {
+  grid-area: tool-bar;
+  background-color: #ffff0050;
+  display: grid;
+  align-items: center;
+}
+.server-list {
+  grid-area: server-list;
+  background-color: #00ffff50;
+  display: grid;
+  align-items: center;
+}
+.chat-box {
+  grid-area: chat-box;
+  background-color: #9fbd6e;
+  display: grid;
+  align-items: center;
+}
+.staus-bar {
+  grid-area: staus-bar;
+  background-color: #a17d9a;
+  display: grid;
+  align-items: center;
+}

@@ -7,7 +7,7 @@
 
   display: grid;
   grid-template:
-    "Header     Search-bar  Header          Settings" 35px
+    "Header     Search-bar  Search-bar          Settings" 35px
     "Navigation Email-tools Email-tools     Icons " 1fr
     "Meet       Emails      Emails          Icons " 1fr
     "Hangouts   Emails     Emails          Icons " 1fr /

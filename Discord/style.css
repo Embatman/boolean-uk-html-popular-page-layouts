@@ -9,9 +9,9 @@
   display: grid;
   grid-template:
     "icons server header tool-bar" 50px
-    "icons server-list chat-box" 150px
-    "icons server-list chat-box" 1fr
-    "icons status-bar chat-box" 50px/
+    "icons server-list chat-box chat-box" 150px
+    "icons server-list chat-box chat-box" 1fr
+    "icons status-bar chat-box chat-box" 50px/
     50px 150px 1fr 1fr;
 }
 
@@ -52,8 +52,8 @@
   display: grid;
   align-items: center;
 }
-.staus-bar {
-  grid-area: staus-bar;
+.status-bar {
+  grid-area: status-bar;
   background-color: #a17d9a;
   display: grid;
   align-items: center;
